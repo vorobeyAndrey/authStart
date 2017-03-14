@@ -1,0 +1,10 @@
+//
+   Created by Lenovo on 12.03.2017.
+
+extends layout
+block content
+   h2 Edit Document
+   form(method='post', action='/login')
+      input(name='email')
+      input(name='password')
+      button(type="submit", value="save") save
